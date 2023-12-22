@@ -22,7 +22,7 @@ public class FileReader {
     public void FileReader(String fileName){
         this.fileName = fileName;
         essay = new ArrayList<>();
-
+        parseEssay();
 
     }
 
